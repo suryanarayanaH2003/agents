@@ -4,7 +4,7 @@ import os
 from django.conf import settings
 
 # Set API Key for Gemini
-os.environ["GEMINI_API_KEY"] = "AIzaSyAT0qY6JFYvhs2jO8k521qnvNB7v1sIrZs"
+os.environ["GEMINI_API_KEY"] = "key in env"
 
 # Initialize LLM
 my_llm = LLM(
